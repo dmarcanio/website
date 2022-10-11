@@ -35,10 +35,14 @@ h3 {
 }
 
 p {
-  padding-top: 35px;
+  /*padding-top: 35px;
   padding-bottom: 35px;
   padding-left: 100px;
-  padding-right: 100px;
+  padding-right: 100px; */
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 15%;
+  padding-right: 15%;
 
   text-align: center;
 }
@@ -73,14 +77,14 @@ a:hover {
 
 .mid-container {
   background-color: #3F4E4F;
-  width: 200px;
-  height: 200px;
+  /* width: 200px;
+  height: 200px; */
 }
 
 .bottom-container {
   background-color: #A27B5C;
-  width: 200px;
-  height: 200px;
+  /* width: 200px;
+  height: 200px; */
 }
 
 .map {
@@ -95,5 +99,5 @@ a:hover {
   max-width: 40%;
   max-height: 40%;
   vertical-align:middle;
-  padding: 30px;
+  padding: 5%;
 }
