@@ -1,0 +1,99 @@
+/* COLOR PALETE, DARK THEME, LIGHT ELEMENTS */
+/* BACKGROUND / DARKEST = #2C3639 */
+/* LIGHTER, STILL DARK  = #3F4E4F */
+/* BROWN HIGHLIGHTS     = #A27B5C */
+/* TAN TEXT             = #DCD7C9 */
+
+/* FONT EMBEDDING VIA FONTS.GOOGLE.COM:
+   Sample code provided:
+   font-family: 'Merriweather Sans', sans-serif;
+   font-family: 'Permanent Marker', cursive;  */
+
+body {
+  background-color: #2C3639;
+  color: #DCD7C9;
+  /* override default margins to 0 */
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', sans-serif;
+
+  }
+
+h1 {
+  /* top, right, bottom, left margins */
+  margin: 0 auto 0 auto;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 350%;
+}
+
+h2 {
+  font-family: 'Permanent Marker', cursive;
+}
+
+h3 {
+  font-family: 'Merriweather', sans-serif;
+}
+
+p {
+  padding-top: 35px;
+  padding-bottom: 35px;
+  padding-left: 100px;
+  padding-right: 100px;
+
+  text-align: center;
+}
+
+div {
+  background-color: #2C3639;
+}
+
+ul {
+  display: inline-block;
+  text-align: left;
+}
+
+/* unvisited link */
+a:link {
+  color: #A27B5C;
+}
+
+/* visited link */
+a:visited {
+  color: #3F4E4F;
+}
+
+/* mouse over link */
+a:hover {
+  color: #DCD7C9;
+}
+
+.top-container {
+  background-color: #2C3639;
+}
+
+.mid-container {
+  background-color: #3F4E4F;
+  width: 200px;
+  height: 200px;
+}
+
+.bottom-container {
+  background-color: #A27B5C;
+  width: 200px;
+  height: 200px;
+}
+
+.map {
+  background-color: #2C3639;
+  max-width: 50%;
+  max-height: 50%;
+  vertical-align:middle;
+}
+
+.gis-icon {
+  background-color: #2C3639;
+  max-width: 40%;
+  max-height: 40%;
+  vertical-align:middle;
+  padding: 30px;
+}
