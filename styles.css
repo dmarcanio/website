@@ -43,7 +43,7 @@ p {
   padding-bottom: 5%;
   padding-left: 10%;
   padding-right: 10%;
-  font-size: 120%
+  font-size: 120%;
   text-align: center;
 }
 
@@ -54,6 +54,7 @@ div {
 ul {
   display: inline-block;
   text-align: left;
+   font-size: 120%;
 }
 
 /* unvisited link */
